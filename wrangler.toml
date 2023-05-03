@@ -1,3 +1,8 @@
 name = "hono-todo"
 main = "src/index.ts"
 compatibility_date = "2023-05-03"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "hono-todo"
+database_id = "942f94d7-3752-4944-9b90-e435df9dedd0"
