@@ -1,6 +1,6 @@
 import { Hono } from "hono";
-import { Env } from "../bindings";
-import { db } from "../db/db.server";
+import { Env } from "../../bindings";
+import { db } from "../../db/db.server";
 import {
   createTodo,
   CreateTodo,
