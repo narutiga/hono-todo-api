@@ -1,8 +1,9 @@
 import { Hono } from "hono";
+import { todos } from "./todos";
 import { Env } from "./bindings";
 
 const app = new Hono<{ Bindings: Env }>();
 
-app.get("/", (c) => c.text("Hello Hono!🔥"));
+app.route("/api/todos", todos);
 
 export default app;
