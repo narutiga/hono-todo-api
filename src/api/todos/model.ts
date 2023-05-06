@@ -17,8 +17,6 @@ export type UpdateTodo = {
   completed?: number;
 };
 
-export const PREFIX = "v1:todo:";
-
 export const getTodos = async (db: DrizzleD1Database): Promise<Todo[]> => {
   const result = await db.select().from(todos).all();
 
