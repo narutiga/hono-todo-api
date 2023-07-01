@@ -104,7 +104,7 @@
     "rollup-pluginutils": "^2.8.2",
     "selfsigned": "^2.1.1",
     "semiver": "^1.1.0",
-    "semver": "^7.5.0",
+    "semver": "^7.5.2",
     "set-cookie-parser": "^2.6.0",
     "shebang-command": "^2.0.0",
     "shebang-regex": "^3.0.0",
